@@ -2,7 +2,7 @@ create database integradora;
 \c integradora;
 
 create table USUARIO(
-	id_usuario serial,
+	id_usuario int primary key,
 	email varchar(50),
 	pass varchar(50),
 	nom_us varchar(50),
